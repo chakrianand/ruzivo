@@ -24,7 +24,7 @@ jobs:
                 region: 'us-east-1'
                 source: 'build'
                 destination_bucket: ${{ secrets.DESTINATION_BUCKET }}
-                destination_prefix: ${{ secrets.DESTINATION_PREFIX }}
+                #destination_prefix: ${{ secrets.DESTINATION_PREFIX }}
                 exclude: '.git/*'
                 delete: true
                 quiet: false

@@ -21,7 +21,7 @@ jobs:
               with:
                 access_key: ${{ secrets.ACCESS_KEY }}
                 secret_access_key: ${{ secrets.SECRET_ACCESS_KEY }}
-                region: 'us-east-1'
+                region: 'ap-south-1'
                 source: 'build'
                 destination_bucket: ${{ secrets.DESTINATION_BUCKET }}
                 #destination_prefix: ${{ secrets.DESTINATION_PREFIX }}
